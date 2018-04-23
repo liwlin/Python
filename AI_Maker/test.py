@@ -15,20 +15,18 @@ print("开始！")
 print("|","*"*25,"|")
 print("请输入您的姓名：？")
 name = input()
-print("你的名字是{}".format(name))
-
-print("|","*"*25,"|")
 print("请输入您的性别：？")
 gender = input()
-print("请输入您的性别是：{}".format(gender))
-
-print("|","*"*25,"|")
 print("你的身高是：？")
 height = input()
-print("你的身高是{}".format(name))
-
-print("|","*"*25,"|")
 print("你的体重是：？")
 weight = input()
-print("你的体重是{}".format(name)),
+print("|","*"*25,"|")
 
+print("|","*"*25,"|")
+print("|","个人信息报告生成","|")
+print("名字{}".format(name))
+print("性别：{}".format(gender))
+print("身高{}".format(height))
+print("体重{}".format(weight)),
+print("|","*"*16,"|")

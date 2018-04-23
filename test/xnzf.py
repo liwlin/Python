@@ -7,7 +7,7 @@
 
 
 import itchat, time
-
+itchat.auto_login()
 SINCERE_WISH = u'亲爱的%s,您好,我是李伟林设计的机器人LI_webot,2017年马上就过去了，2018年马上到来！我仅代表李伟林祝你新年快乐，心想事成。！'
 REAL_SINCERE_WISH = u'祝%s新年快乐！！'
 
